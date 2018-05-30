@@ -1,0 +1,571 @@
+
+/***************************************
+MENU
+***************************************/
+
+.header a{
+        color: #C06C84;
+        font-weight: 400;
+        font-family: 'Lato', sans-serif;
+}
+.header a:hover{
+        color: #C06C84;
+        font-weight: bold;
+        font-family: 'Lato', sans-serif;
+        text-decoration: none;
+}
+.banner{
+    width: 100%;
+}
+
+
+.menu {
+
+    background:white;
+}
+.menuletras i{
+    color: #C06C84;
+}
+.navbar-brand {
+
+    font-weight: 400;
+    transition: all .5s;
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.logo{
+   width: 190px;
+    position: relative;
+
+}
+
+/***************************************
+SeccionCuadro
+***************************************/
+.seccioncuadro{
+    background: #F0FFF3;
+    border: 1px solid #e1e1e1;
+    font-family: 'Lato', sans-serif;
+
+}
+/***************************************
+SeccionBanner-Cards
+***************************************/
+.rslides img{
+   height: 356px;
+}
+.titulo{
+    color: #C06C84;
+}
+.row h5{
+    font-size: 16px;
+}
+.row p{
+    font-size: 14px;
+}
+.row i{
+    font-size: 20px;
+}
+.border-cuadro{
+    border-left: 1px solid #e1e1e1;
+}
+
+.card-block img{
+    max-width: 13rem ;
+    height: 200px ;
+}
+.card a{
+    background: #FFDD7E;
+    color: white;
+}
+.card a:hover{
+
+    color: #0F4137;
+}
+.simbolo {
+    font-size: 2.2rem ;
+
+}
+.h1{
+    font-size: 1.7rem !important;
+}
+
+.card-footer{
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+}
+.card-title{
+    font-family: 'Lato', sans-serif;
+}
+.card i{
+    color: #307672;
+}
+.seccion-destacados{
+    background: #F6FFCD;
+}
+/***************************************
+Iconos
+***************************************/
+.fab {
+    font-size: 25px;
+
+    margin-top:5px;
+    padding-left: 10px;
+
+    color: white;
+}
+.fa.pull-left {
+    margin-right: .3em;
+}
+.far {
+    color: #12776F;
+}
+.fas{
+    color: #12776F;
+}
+.fa{
+    color: #ECAB69;
+}
+/***************************************
+SeccionMapa
+***************************************/
+#map {
+   height: 600px;
+   width: 100%;
+   padding: 0px;
+  }
+
+
+/***************************************
+SeccionWappshap
+***************************************/
+.a{
+    margin-top:150px;
+}
+
+
+.ws{
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    display: block;
+}
+.ws a{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 25px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    background: #C06C84;
+    border: solid 2px #C06C84;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    transition: all .3s;
+    height: 70px;
+
+}
+.ws a i {
+    font-size: 35px;
+    position: relative;
+    top: 5px;
+}
+.ws a:hover {
+    box-shadow: 0 10px 30px rgba(0,0,0,.2);
+    text-decoration: none;
+    color: white;
+
+}
+
+
+/***************************************
+Contacto
+***************************************/
+.contactenos{
+    color: #23B1A5;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+
+}
+.seccion-contactos{
+    background: #FBFAE1;
+}
+.seccion-contactos ul{
+    list-style: none;
+}
+.datos_contacto h3{
+    font-size: 24px;
+        color: #645C84;
+}
+ .datos_contacto i{
+    font-size: 2em;
+    padding-right: 13px;
+    color: #C06C84;
+ }
+ .datos_contacto p{
+    font-size: 16px;
+    color: #999999;
+ }
+
+.space {
+    margin-top: 40px;
+}
+.btn-form{
+    background-color: #C06C84;
+    color: #fff;
+    border-radius: 0px;
+    padding: 10px 20px;
+}
+.btn-form:hover, .btn-form:focus {
+    background-color: #C06C84;
+    color: #fff;
+    border-radius: 0px;
+    transition: all .04s;
+}
+.br-radius-zero {
+    border-radius: 0px;
+}
+
+.validation {
+    color: red;
+    display:none;
+    margin: 0 0 20px;
+    font-weight:400;
+    font-size:13px;
+}
+#sendmessage {
+    color: green;
+    border:1px solid green;
+    display:none;
+    text-align:center;
+    padding:15px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+#errormessage {
+    color: red;
+    display:none;
+    border:1px solid red;
+    text-align:center;
+    padding:15px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+#sendmessage.show, #errormessage.show, .show {
+    display:block;
+}
+
+.seccion3{
+    background: #F6FFCD;
+}
+
+/***************************************
+Footer
+***************************************/
+.footer {
+    background: #222;
+    color: white;
+    height: 250px;
+
+}
+.footer h1{
+    color: #FEEB97;
+    font-size: 40px;
+}
+.footer h2{
+    font-size: 15px;
+    color: #999;
+}
+.footer h3{
+    font-size: 17px;
+    color: #FEEB97;
+}
+.iconos-footer i{
+font-size: 30px;
+color: white;
+}           
+.icono-cel  i{
+    font-size: 16px;
+    padding-right: 8px;
+    color: #FEEB97;
+}
+/***************************************
+Carosuel comentarios
+***************************************/
+.carousel{
+    height: 300px;
+    background: #FBEAD1;
+     font-family: 'Lato', sans-serif;
+     text-align: center;
+}
+.carousel-item h1{
+    font-size: 24px;
+    font-weight: 400;
+    color: #113A5D;
+
+}
+.carousel-item p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #645C84;
+
+}
+.carousel-item h2{
+    font-size: 18px;
+    font-weight: 400;
+    color: #113A5D;
+    font-weight: 500;
+
+}
+@media  screen and (max-width:576px){
+    .logo{
+        width: 200px;
+        margin-left: 10px;
+    }
+    .menuletras{
+        text-align: center;
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    .menuletras i{
+    visibility: collapse;
+    }
+    .rslides img{
+        width: 100%;
+        height: 100px;
+    }
+    .titulo{
+        font-size: 25px;
+    }
+    .popup-gallery img{
+    width: 50px;
+    height: 50px;
+    }
+    .recuadro-cartas{
+    padding-bottom: 25px;
+    }
+    .banner-foto img{
+    width: 100%;
+    }
+    .datos_contacto h3{
+        font-size: 16px;
+    }
+    .datos_contacto i{
+        font-size: 18px;
+    }
+    .contacto-info{
+        padding-top: 45px;
+    }
+    .form-group input {
+        font-size: 10px;
+    }
+    .form-group textarea{
+        font-size: 10px;
+    }
+    .form-action button{
+        font-size: 14px;
+    }
+    .ws {
+        padding-top: 30px;
+    }
+    .ws a{
+        font-size: 18px;
+    }
+    .footer {
+    
+    height: 290px;
+
+    }
+    .footer h1{
+        
+        font-size: 30px;
+    }
+    .footer h2{
+        font-size: 12px;
+        
+    }
+    .iconos-footer i{
+    font-size: 25px;
+
+    }
+    .carousel{
+    height: 240px;
+    background: #FBEAD1;
+     font-family: 'Lato', sans-serif;
+     text-align: center;
+    }
+    .carousel-item h1{
+        font-size: 14px;
+        font-weight: 400;
+        color: #113A5D;
+
+    }
+    .carousel-item p{
+        font-size: 12px;
+        font-weight: 400;
+        color: #645C84;
+
+    }
+    .carousel-item h2{
+        font-size: 11px;
+        font-weight: 400;
+        color: #113A5D;
+        font-weight: 500;
+
+    }       
+
+    }
+
+    @media  screen and (min-width:576px){
+    .logo{
+        width: 200px;
+        margin-left: 10px;
+    }
+    .menuletras{
+        text-align: center;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .menuletras i{
+    
+    }
+    .rslides img{
+        width: 100%;
+        height: 200px;
+    }
+    .titulo{
+        font-size: 35px;
+    }
+    .popup-gallery img{
+    width: 100px;
+    height: 100px;
+    }
+    .recuadro-cartas{
+    padding-bottom: 25px;
+    }
+    .banner-foto img{
+    width: 100%;
+    
+    }
+    .datos_contacto h3{
+        font-size: 20px;
+    }
+    .datos_contacto i{
+        font-size: 22px;
+    }
+    
+    .form-group input {
+        font-size: 12px;
+    }
+    .form-group textarea{
+        font-size: 12px;
+    }
+    .form-action button{
+        font-size: 16px;
+    }
+    .ws {
+        padding-top: 30px;
+    }
+    .ws a{
+        font-size: 23px;
+    }
+    .footer {
+    
+    height: 290px;
+
+    }
+    .footer h1{
+        
+        font-size: 35px;
+    }
+    .footer h2{
+        font-size: 15px;
+        
+    }
+    .iconos-footer i{
+    font-size: 30px;
+
+    }       
+
+    }
+    @media  screen and (min-width:992px){
+    .logo{
+        width: 190px;
+        margin-left: 10px;
+    }
+    .menuletras{
+        text-align: center;
+        font-size: 18px;
+        margin-left: 10px;
+    }
+    .menuletras i{
+    
+    }
+    .rslides img{
+        width: 100%;
+        height: 356px;
+    }
+    .titulo{
+        font-size: 35px;
+    }
+    .popup-gallery img{
+    width: 160px;
+    height: 160px;
+    }
+    .banner-foto img{
+    width: 100%;
+    
+    margin-left: 200px;
+    }
+    
+    .datos_contacto h3{
+        font-size: 25px;
+    }
+    .datos_contacto i{
+        font-size: 30px;
+    }
+    
+    .form-group input {
+        font-size: 14px;
+    }
+    .form-group textarea{
+        font-size: 14px;
+    }
+    .form-action button{
+        font-size: 18px;
+    }
+    .ws {
+        padding-top: 30px;
+    }
+    .ws a{
+        font-size: 23px;
+    }
+    .footer {
+    
+    height: 322px;
+
+    }
+    .footer h1{
+        
+        font-size: 40px;
+    }
+    .footer h2{
+        font-size: 18px;
+        
+    }
+    .iconos-footer i{
+    font-size: 35px;
+
+    }       
+
+            }
+
+
